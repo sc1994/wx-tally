@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/list/list"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,19 +17,19 @@
     "borderStyle": "white",
     "list": [{
         "pagePath": "pages/index/index",
-        "iconPath": "images/add.png",
-        "selectedIconPath": "images/add-s.png",
+        "iconPath": "images/add_s.png",
+        "selectedIconPath": "images/add.png",
         "text": "记账"
       }, {
-        "pagePath": "pages/me/me",
-        "iconPath": "images/list.png",
-        "selectedIconPath": "images/list-s.png",
+        "pagePath": "pages/list/list",
+        "iconPath": "images/list_s.png",
+        "selectedIconPath": "images/list.png",
         "text": "账单"
       },
       {
         "pagePath": "pages/me/me",
-        "iconPath": "images/me.png",
-        "selectedIconPath": "images/me-s.png",
+        "iconPath": "images/me_s.png",
+        "selectedIconPath": "images/me.png",
         "text": "我"
       }
     ]
