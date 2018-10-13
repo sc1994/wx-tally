@@ -1,12 +1,17 @@
 Component({
   data: {
-    active: 2
+    active: 0
   },
   // event.detail 的值为当前选中项的索引
-  onChange: function (event) {
-    console.error(event.detail);
+  methods: {
+    onChange: function (event) {
+      console.log(event)
+      wx.switchTab({
+        url: '/pages/me/me'
+      });
+    }
   },
-  handleClick() {
-    console.error(1)
+  onLoad(query) {
+    console.log(query)
   }
 })

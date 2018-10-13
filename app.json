@@ -1,12 +1,36 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/me/me"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "账单",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#495060",
+    "selectedColor": "#2b85e4",
+    "backgroundColor": "#f8f8f9",
+    "borderStyle": "white",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "images/add.png",
+        "selectedIconPath": "images/add-s.png",
+        "text": "记账"
+      }, {
+        "pagePath": "pages/me/me",
+        "iconPath": "images/list.png",
+        "selectedIconPath": "images/list-s.png",
+        "text": "账单"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-s.png",
+        "text": "我"
+      }
+    ]
   }
 }
