@@ -6,15 +6,15 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#313131",
     "navigationBarTitleText": "账单",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "light"
   },
   "tabBar": {
     "color": "#495060",
     "selectedColor": "#2b85e4",
-    "backgroundColor": "#f8f8f9",
-    "borderStyle": "white",
+    "backgroundColor": "#F5F5F5",
+    "borderStyle": "black",
     "list": [{
         "pagePath": "pages/index/index",
         "iconPath": "images/add_s.png",

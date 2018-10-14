@@ -1,2 +1,2 @@
 <!-- index.wxml -->
-<view>index</view>
+<view class="body">index</view>
