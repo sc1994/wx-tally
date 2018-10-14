@@ -9,6 +9,7 @@
     "van-tag": "../../vant/tag/index",
     "i-avatar": "../../iview/avatar/index",
     "van-row": "../../vant/row/index",
-    "van-col": "../../vant/col/index"
+    "van-col": "../../vant/col/index",
+    "van-button": "../../vant/button/index"
   }
 }

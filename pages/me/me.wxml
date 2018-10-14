@@ -3,12 +3,12 @@
   <view class="view-me">
     <van-row>
       <van-col span="6">
-        <image class="view-avatar" src="http://118.24.27.231:81/static/5b96461e43929100012a7ccb/head-image-801.jpg" mode="scaleToFill" lazy-load="true"></image>
+        <open-data class="view-avatar" type="userAvatarUrl"></open-data>
       </van-col>
       <van-col span="8">
-        <view style="margin-top:13%;">
-          <view class="view-nick">内容不错</view>
-          <view class="view-id">内容不错</view>
+        <view style="margin-top:20%;">
+          <open-data type="userNickName" class="view-nick"></open-data>
+          <view class="view-id">todo</view>
         </view>
       </van-col>
       <van-col span="10">
@@ -36,4 +36,8 @@
     <i-input value="{{ value2 }}" type="number" title="联系电话" placeholder="请输入手机号" />
     <i-input value="{{ value3 }}" type="textarea" title="详细地址" placeholder="请输入详细地址(最多50字)" maxlength="50" />
   </i-panel>
+  <!-- <van-button type="primary" size="large" wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">
+    授权登录
+  </van-button> -->
+  <van-button type="primary" size="large" bindclick="test">获取OPENID</van-button>
 </view>
