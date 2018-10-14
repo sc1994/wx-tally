@@ -1,0 +1,44 @@
+.view-me {
+  font-size: 14px;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+}
+
+.view-avatar {
+  width: 66px;
+  height: 66px;
+  line-height: 40px;
+  border-radius: 33px;
+  margin: 15px;
+  margin-bottom: 10px;
+}
+
+.view-nick {
+  position: relative;
+  padding: 6px 16px;
+  color: #495060;
+  font-size: 14px;
+}
+
+.view-id {
+  position: relative;
+  padding: 6px 16px;
+  color: #80848f;
+  font-size: 12px;
+}
+
+.view-content {
+  position: absolute;
+  top: 50%;
+  height: 240px;
+  margin-top: -120px;
+}
+
+.view-set {
+  margin-top: 21%;
+  text-align: right;
+  margin-right: 27px;
+  font-size: 24px;
+
+}

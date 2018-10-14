@@ -6,14 +6,14 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#313131",
+    "navigationBarBackgroundColor": "#F2F2F2",
     "navigationBarTitleText": "账单",
-    "navigationBarTextStyle": "light"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#495060",
     "selectedColor": "#2b85e4",
-    "backgroundColor": "#F5F5F5",
+    "backgroundColor": "#FAFAFA",
     "borderStyle": "black",
     "list": [{
         "pagePath": "pages/index/index",
@@ -31,6 +31,12 @@
         "iconPath": "images/me_s.png",
         "selectedIconPath": "images/me.png",
         "text": "我"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "images/message_s.png",
+        "selectedIconPath": "images/message.png",
+        "text": "消息"
       }
     ]
   }

@@ -2,6 +2,13 @@
   "usingComponents": {
     "i-card": "../../iview/card/index",
     "i-panel": "../../iview/panel/index",
-    "i-input": "../../iview/input/index"
+    "i-input": "../../iview/input/index",
+    "van-cell": "../../vant/cell/index",
+    "van-cell-group": "../../vant/cell-group/index",
+    "van-icon": "../../vant/icon/index",
+    "van-tag": "../../vant/tag/index",
+    "i-avatar": "../../iview/avatar/index",
+    "van-row": "../../vant/row/index",
+    "van-col": "../../vant/col/index"
   }
 }
